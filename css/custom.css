@@ -2,6 +2,7 @@ body, html{
     font-family: Arial, Helvetica, sans-serif
 }
 
+
 /*NAVBAR CSS*/
 
 #navbar{
@@ -14,7 +15,7 @@ body, html{
     font-size:20px;
     letter-spacing: 2px;
     font-weight: 1;
-    padding-left: 5%;
+    padding-left: 10%;
     height: 10vh;
     padding-top: 17px;
 }
@@ -85,8 +86,10 @@ h4{
     background-color: #00406C;
     */
     padding-bottom: 70px;
-    height:140vh;
+    height:130vh;
     padding-top: 100px;
+
+    padding-left: 5%;
 }
 
 /*SLIDER  ----------------------------------------------------------------------------------------------------*/
@@ -99,8 +102,24 @@ h4{
     background-color: #003A61;
     */
     padding-top: 150px;
-    padding-bottom: 200px;
+    padding-bottom: 180px;
     
+}
+
+a{
+    text-decoration: none;
+}
+
+#tp{
+    background-color: #032135;
+}
+
+#txt{
+    color:white;
+}
+
+.card-footer{
+    background-color: #001523;
 }
 
 .col1:hover{
@@ -232,6 +251,9 @@ h4{
    padding-bottom: 100px;
 }
 
+.a:hover{
+    transform: scale(0.9);
+}
 .titulo-faculdades{
     padding-top: 50px;
     font-weight: 500;
@@ -310,6 +332,9 @@ h4{
     padding-bottom: 100px;
 }
 
+#cciber{
+    padding-bottom: 17px;
+}
 .titulo-mestrado{
     padding-top: 50px;
     font-weight: 500;
@@ -351,13 +376,18 @@ h4{
 }
 
 .card-verona{
-    padding-top: 10px;
+    padding-top: 12px;
     width:250px;
-    height:125px;
+    height:120px;
 }
 
+#cverona{
+    padding-bottom: 5px;
+}
+
+
 .card-mondragon{
-    padding-top: 10px;
+    padding-top: 12px;
     width:180px;
     height:125px;
 }
@@ -371,7 +401,11 @@ h4{
 .card-oviedo{
     padding-top: 10px;
     width:200px;
-    height:125px;
+    height:120px;
+}
+
+#coviedo{
+    padding-bottom: 5px;
 }
 
 .card-text-mestrado{
@@ -393,6 +427,10 @@ h4{
 .unity{
     width:200px;
     height:200px;
+}
+
+#txt_unity{
+    padding-bottom: 22px;
 }
 
 .c{
@@ -420,18 +458,28 @@ h4{
     padding-top:50px;
     padding-bottom: 100px;
 }
+
+.entrevista{
+    color: white;
+    font-size: 30px;
+}
+
+.sub_txt_en{
+    color: white;
+    font-size: 20px;
+}
 /*ENTREVISTA ----------------------------------------------------------------------------------------------------*/
 
 /*RODAPE ----------------------------------------------------------------------------------------------------*/
 .titulo-footer{
-    padding-top: 40px;
+    padding-top: 10px;
     color:white;
     font-size:30px;
 }
 
 .txt-footer{
     color:white;
-    font-size:20px;
+    font-size:12px;
 }
 
 #footer{
