@@ -69,8 +69,8 @@ body, html{
 
 h1{
     color:rgb(255, 255, 255);
-    font-size: 43px;
-    letter-spacing: 5px;
+    font-size: 40px;
+    letter-spacing: 4px;
     
 }
 
@@ -86,7 +86,7 @@ h4{
     background-color: #00406C;
     */
     padding-bottom: 70px;
-    height:130vh;
+    height:137vh;
     padding-top: 100px;
 
     padding-left: 5%;
@@ -123,15 +123,15 @@ a{
 }
 
 .col1:hover{
-    transform: scale(0.9);
+    transform: scale(0.95);
 }
 
 .col2:hover{
-    transform: scale(0.9);
+    transform: scale(0.95);
 }
 
 .col3:hover{
-    transform: scale(0.9);
+    transform: scale(0.95);
 }
 
 #cards{
@@ -267,6 +267,12 @@ a{
     color: white;
 }
 
+#cardcurso:hover{
+    border:2px solid #000000;
+    transform: scale(0.98);
+    border-radius: 5%;
+}
+
 .card-ufrn{
     width:180px;
     height:150px;
@@ -378,18 +384,42 @@ a{
 .card-verona{
     padding-top: 12px;
     width:250px;
-    height:120px;
+    height:100px;
+}
+
+.card-verona:hover{
+    transform:scale(0.9);
 }
 
 #cverona{
     padding-bottom: 5px;
 }
 
+#cverona:hover{
+    border:3px solid #000000;
+    transform:scale(1.0);
+}
+
+#cardmon:hover{
+    border:3px solid #000000;
+}
+
+#cardcb:hover{
+    border:3px solid #000000;
+}
+
+#coviedo:hover{
+    border:3px solid #000000; 
+}
 
 .card-mondragon{
     padding-top: 12px;
-    width:180px;
-    height:125px;
+    width:150px;
+    height:100px;
+}
+
+.card-mondragon:hover{
+    transform:scale(0.9);
 }
 
 .card-cb{
@@ -398,10 +428,18 @@ a{
     height:125px;
 }
 
+.card-cb:hover{
+    transform:scale(0.9);
+}
+
 .card-oviedo{
     padding-top: 10px;
     width:200px;
     height:120px;
+}
+
+.card-oviedo:hover{
+    transform:scale(0.9);
 }
 
 #coviedo{
@@ -423,25 +461,41 @@ a{
     padding-bottom: 100px;
 }
 
+#carduc:hover{
+    border:3px solid #000000;
+    
+}
 
 .unity{
     width:200px;
     height:200px;
 }
 
+.unity:hover{
+    transform:scale(0.9);
+}
+
 #txt_unity{
     padding-bottom: 22px;
 }
+
+
 
 .c{
     width:200px;
     height:200px;
 }
 
+.c:hover{
+    transform:scale(0.9);
+}
+
 .txt-lato{
     color:white;
     font-size: 20px;
 }
+
+
 /*LATO ----------------------------------------------------------------------------------------------------*/
 
 /*MBAS ----------------------------------------------------------------------------------------------------*/
@@ -449,6 +503,18 @@ a{
     background-color: #002E4E;
     padding-top:30px;
     padding-bottom: 100px;
+}
+
+#cardmba:hover{
+    border:3px solid #000000;
+}
+
+#mbas:active{
+    transform:scale(0.9);
+}
+
+#mbas:hover{
+    transform:scale(0.9);
 }
 /*MBAS ----------------------------------------------------------------------------------------------------*/
 
