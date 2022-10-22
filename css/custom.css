@@ -243,9 +243,37 @@ a{
 }
 /*COMO FUNCIONA  ----------------------------------------------------------------------------------------------------*/
 
+/*INTRODUCAO----------------------------------------------------------------------------------------------------------*/
+.faculdade-1{
+    color: white;
+    font-size: 40px;
+}
+
+.txt-facul1{
+    font-size: 20px;
+    font-weight: 1;
+    color: white;
+}
+
+
+#graduacao:hover{
+    border:2px solid #000000;
+    transform: scale(0.98);
+    border-radius: 5%;
+}
+
+#especializacao:hover{
+    border:2px solid #000000;
+    transform: scale(0.98);
+    border-radius: 5%;
+}
+
+
+
+/*INTRODUCAO----------------------------------------------------------------------------------------------------------*/
 
 /*CURSOS DA ÁREA  ----------------------------------------------------------------------------------------------------*/
-#faculdades{
+#bacharelados{
    background-color: #001A2C;
    padding-top:100px;
    padding-bottom: 100px;
@@ -254,14 +282,14 @@ a{
 .a:hover{
     transform: scale(0.9);
 }
-.titulo-faculdades{
+.titulo-bacharelado{
     padding-top: 50px;
     font-weight: 500;
     font-size: 40px;
     color: white;
 }
 
-.txt-faculdades{
+.txt-bacharelado{
     font-size: 24px;
     font-weight: 1;
     color: white;
@@ -357,7 +385,7 @@ a{
 .txt-mestrado{
     font-size: 25px;
     font-weight: 1;
-    color:rgb(97,97,97);
+    color:rgb(199, 195, 195);
 }
 
 .card{
