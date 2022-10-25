@@ -1,23 +1,30 @@
 body, html{
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(12,10,55);
+    background: linear-gradient(90deg, rgba(12,10,55,1) 0%, rgba(25,21,121,1) 50%, 
+    rgba(64,10,107,1) 100%);
 }
 
+#linha{
+    color: white;
+    width:60%;
+}
 
 /*NAVBAR CSS*/
 
 #navbar{
     background-color: rgb(28, 28, 28);
+    height:15vh;
 }
 
 .navbar-brand{
-    color: rgb(245, 245, 245);
+    color: rgb(2, 0, 0);
     color: white;
     font-size:20px;
     letter-spacing: 2px;
     font-weight: 1;
     padding-left: 10%;
-    height: 10vh;
-    padding-top: 17px;
+    
 }
 
 .navbar-brand:hover{
@@ -80,9 +87,9 @@ h4{
     font-weight: 5;
 }
 
-#slider{
+#slider{/*
     background-image: linear-gradient(134deg,#00406C, 70%, rgb(0, 0, 0));
-    /*
+    
     background-color: #00406C;
     */
     padding-bottom: 70px;
@@ -96,9 +103,9 @@ h4{
 
 
 /*CARDS ----------------------------------------------------------------------------------------------------*/
-#circulos{
+#circulos{/*
     background-image: linear-gradient(134deg,#003A61, 70%, rgb(0, 0, 0));
-    /*
+    
     background-color: #003A61;
     */
     padding-top: 150px;
@@ -142,9 +149,9 @@ a{
 
 /*PERFIL ----------------------------------------------------------------------------------------------------*/
 
-#perfil{
+#perfil{/*
     background-image: linear-gradient(134deg,#002E4E, 70%, rgb(0, 0, 0));
-    /*
+    
     background-color: #002E4E;
     */
     padding-top: 100px;
@@ -170,9 +177,9 @@ a{
 
 
 /*SOBRE ----------------------------------------------------------------------------------------------------*/
-#sobre{
+#sobre{/*
     background-image: linear-gradient(134deg,#003356, 70%, rgb(0, 0, 0));
-    /*
+    
     background-color: #002E4E;
     */
     padding-top:100px;
@@ -203,7 +210,9 @@ a{
 /*O QUE É ----------------------------------------------------------------------------------------------------*/
 
 #oq{
+    /*
     background-color: #00253E;
+    */
     padding-top:100px;
     padding-bottom: 100px;
 }
@@ -219,7 +228,9 @@ a{
 
 /*COMO FUNCIONA  ----------------------------------------------------------------------------------------------------*/
 #funciona{
+    /*
     background-color: #002137;
+    */
     padding-top:100px;
     padding-bottom: 100px;
 }
@@ -274,7 +285,9 @@ a{
 
 /*CURSOS DA ÁREA  ----------------------------------------------------------------------------------------------------*/
 #bacharelados{
+    /*
    background-color: #001A2C;
+   */
    padding-top:100px;
    padding-bottom: 100px;
 }
@@ -351,7 +364,9 @@ a{
 
 /*PAGINA EM CONSTRUÇÃO  ----------------------------------------------------------------------------------------------------*/
 #faculdade1{
+    /*
     background-color: #001523;
+    */
     padding-top:100px;
     padding-bottom: 100px;
 }
@@ -361,7 +376,9 @@ a{
 
 /*MESTRADOS  ----------------------------------------------------------------------------------------------------*/
 #mestrados{
+    /*
     background-color: #001523;
+    */
     padding-top:30px;
     padding-bottom: 100px;
 }
@@ -404,7 +421,9 @@ a{
 
 /*OPÇÕES DE MESTRADOS  ----------------------------------------------------------------------------------------------------*/
 #mestrado1{
+    /*
     background-color: #001A2C;
+    */
     padding-top:30px;
     padding-bottom: 100px;
 }
@@ -484,7 +503,9 @@ a{
 
 /*LATO ----------------------------------------------------------------------------------------------------*/
 #lato{
+    /*
     background-color: #002945;
+    */
     padding-top:30px;
     padding-bottom: 100px;
 }
@@ -528,7 +549,9 @@ a{
 
 /*MBAS ----------------------------------------------------------------------------------------------------*/
 #mba{
+    /*
     background-color: #002E4E;
+    */
     padding-top:30px;
     padding-bottom: 100px;
 }
@@ -548,7 +571,9 @@ a{
 
 /*ENTREVISTA ----------------------------------------------------------------------------------------------------*/
 #entrevista{
+    /*
     background-color: #003356;
+    */
     padding-top:50px;
     padding-bottom: 100px;
 }
