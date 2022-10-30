@@ -5,6 +5,11 @@ body, html{
     rgba(64,10,107,1) 100%);
 }
 
+iframe:hover{
+    transform: scale(1);
+    border:3px solid #000000;
+}
+
 #linha{
     color: white;
     width:60%;
@@ -12,10 +17,18 @@ body, html{
 
 /*NAVBAR CSS*/
 
+
+
 #navbar{
+    background: rgb(1,1,18);
+    background: linear-gradient(90deg, rgba(1,1,18,1) 0%, rgba(10,6,78,1) 50%, rgba(1,0,13,1) 100%);
+
+/*
     background-color: rgb(28, 28, 28);
-    height:18.5vh;
+    */
+    
 }
+
 
 .navbar-brand{
     color: rgb(2, 0, 0);
@@ -23,9 +36,10 @@ body, html{
     font-size:20px;
     letter-spacing: 2px;
     font-weight: 1;
-    padding-left: 10%;
+    padding-left: 19%;
     
 }
+
 
 .navbar-brand:hover{
 
@@ -64,7 +78,9 @@ body, html{
     color:white;
 }
 
-
+.navbar-toggler-icon{
+     color: white;
+}
 /*NAVBAR CSS*/
 
 
@@ -92,10 +108,9 @@ h4{
     
     background-color: #00406C;
     */
-    padding-bottom: 70px;
-    height:137vh;
+    
+    height:130vh;
     padding-top: 100px;
-
     padding-left: 5%;
 }
 
@@ -118,7 +133,12 @@ a{
 }
 
 #tp{
+
+    /*
     background-color: #032135;
+    */
+    background: rgb(14,9,69);
+background: linear-gradient(90deg, rgba(14,9,69,1) 0%, rgba(23,16,149,1) 50%, rgba(14,9,69,1) 100%);
 }
 
 #txt{
@@ -498,8 +518,34 @@ a{
 }
 /*OPCOES DE MESTRADOS  ----------------------------------------------------------------------------------------------------*/
 
+/*OPCOES DE DOUTORADOS  ----------------------------------------------------------------------------------------------------*/
 
+.titulo-doutorado{
+    color: white;
+    font-size: 25px;
+}
 
+.card-geo{
+    padding-top: 12px;
+    width:150px;
+    height:150px;
+}
+
+.card-dallas{
+    padding-top: 12px;
+    width:150px;
+    height:150px;
+}
+
+.card-geo:hover{
+    transform:scale(0.9);
+}
+
+.card-dallas:hover{
+    transform:scale(0.9);
+}
+
+/*OPCOES DE DOUTORADOS  ----------------------------------------------------------------------------------------------------*/
 
 /*LATO ----------------------------------------------------------------------------------------------------*/
 #lato{
