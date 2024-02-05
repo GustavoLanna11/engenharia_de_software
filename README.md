@@ -1,2 +1,2 @@
 # engenharia_de_software
-Site de engenharia de Software utilizando Bootstrap (em andamento).
+Site de Engenharia de Software desenvolvido utilizando Bootstrap para a Feira de Profissões da ETEC de Registro em 2022.
